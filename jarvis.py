@@ -38,7 +38,7 @@ def takeCommand():
         audio = r.listen(source)
 
     try:
-         print("Rcognizing...")
+         print("Recognizing...")
          query = r.recognize_google(audio, language='en-in') #Using google for voice recognition.
          print(f"User said: {query}\n")  #User query will be printed.
 
